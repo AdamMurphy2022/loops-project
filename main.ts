@@ -1,7 +1,7 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
     mySprite.setFlag(SpriteFlag.Ghost, true)
     info.changeLifeBy(-1)
-    mySprite.startEffect(effects.coolRadial, 1000)
+    mySprite.startEffect(effects.halo, 1000)
     pause(1000)
     mySprite.setFlag(SpriteFlag.Ghost, false)
 })
