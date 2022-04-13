@@ -176,6 +176,6 @@ game.onUpdateInterval(1000, function () {
         ....fccc111fbdbbccdcc.....fbbf..
         ........ccccfcdbbcc........fff..
         .............fffff..............
-        `, -50, 0)
+        `, -50 - info.score(), 0)
     shark.setPosition(160, randint(0, 120))
 })
