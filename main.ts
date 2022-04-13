@@ -156,7 +156,7 @@ scene.setBackgroundImage(img`
     6cccccccccccccc66666ccccccccccccccccccc666ccccc6666ccccccccccccccf666666666666ff6666ffffffff6666666666666666666ccccccccccccccc6cccccccccccccccccccccccccccccccc8
     `)
 controller.moveSprite(mySprite)
-info.setLife(4)
+info.setLife(5)
 info.setScore(0)
 game.onUpdateInterval(1000, function () {
     shark = sprites.createProjectileFromSide(img`
